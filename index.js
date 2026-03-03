@@ -1,6 +1,6 @@
 import express from "express";
 import dotenv from "dotenv";
-import movieRoutes from "../routes/movieRoutes.js";
+import movieRoutes from "./movieServer/routes/movieRoutes.js";
 import cors from "cors";
 
 dotenv.config();
